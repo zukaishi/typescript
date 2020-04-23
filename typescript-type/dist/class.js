@@ -9,3 +9,7 @@ class Person {
 }
 const quill = new Person("Quill");
 quill.greeting();
+const antherQill = {
+    antherGreeting: quill.greeting
+};
+antherQill.antherGreeting();
