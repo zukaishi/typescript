@@ -1,9 +1,11 @@
 interface  Human  {
     name: string;
     age:number;
+    greeting(message: string) :void;
 }
-const human: Human = {
-    name: 'Quil',
-    age : 38
+class Developer implements Human{
+    constructor(public name: string, public age: number, public experience: number ){ }
+    greeting(message: String ){
+        console.log('hello!');
+    }
 }
-let developer: Human;
