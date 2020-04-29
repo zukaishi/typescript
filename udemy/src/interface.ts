@@ -9,3 +9,5 @@ class Developer implements Human{
         console.log('hello!');
     }
 }
+
+const user = new Developer('Quill',38,3);

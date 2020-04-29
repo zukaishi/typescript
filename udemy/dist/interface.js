@@ -9,3 +9,4 @@ class Developer {
         console.log('hello!');
     }
 }
+const user = new Developer('Quill', 38, 3);
